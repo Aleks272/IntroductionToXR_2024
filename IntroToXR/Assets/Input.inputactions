@@ -1,0 +1,34 @@
+{
+    "name": "Input",
+    "maps": [
+        {
+            "name": "InputMap",
+            "id": "72657388-62a5-45e6-8448-0a57978e46b8",
+            "actions": [
+                {
+                    "name": "B",
+                    "type": "Button",
+                    "id": "e5cc350a-3c16-4234-8e69-fd37ef8b5e55",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "273a376b-43c3-4470-9ac2-ee4a3d98a9fd",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "B",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
