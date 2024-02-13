@@ -18,7 +18,7 @@ public class MoveLocation : MonoBehaviour
 
     void TogglePosition(InputAction.CallbackContext context) {
         if (inStartingPos){
-            this.transform.position = new Vector3(-12f, 14f, -15f);
+            this.transform.position = new Vector3(-16f, 16f, -20f);
             this.transform.LookAt(new Vector3(0, 7.5f, 0));
             inStartingPos = false;
         }
